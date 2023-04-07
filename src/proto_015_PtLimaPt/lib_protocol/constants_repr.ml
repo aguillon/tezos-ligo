@@ -55,7 +55,7 @@ let max_allowed_global_constant_depth = 10_000
    were not checked. Both components, <parameter_type> and
    <storage_type> where however checked hence it was possible to build
    types as big as 2001. *)
-let michelson_maximum_type_size = 2001
+let michelson_maximum_type_size = 2000001
 
 (* This constant declares the number of subcaches used by the cache
    mechanism (see {Context.Cache}). *)
